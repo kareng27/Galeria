@@ -1,0 +1,290 @@
+body{
+    /*background-color: rgb(241,238,214);*/
+    background-color: rgb(253,241,240);;
+
+}
+
+/*HEADER*/
+
+.header{
+    background-color: rgb(254,255,255);
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+}
+
+.header-cont{
+
+    height: 40px;
+    width: 45%;
+    margin: 20px;
+}
+
+.header-cont img{
+    height: 50px;
+    width: 45%;
+}
+
+.nav{
+    font-size: 1.2em;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.header-cont .nav li {
+    display: inline;
+    margin: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(234,7,15);
+}
+
+
+.nav a:hover{
+    color: rgb(116,125,95);
+}
+
+/*CIERRE HEADER*/
+
+/*CONTENEDOR*/
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    height: 2300px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.cajas{
+    background-color: rgb(254,254,254);
+    width: 30%;
+    height: 350px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(241,238,214);
+    align-content: center;
+    justify-content: space-around;
+}
+/*CIERRE CONTENEDOR*/
+
+/*CAJA IMAGENES*/
+#caja1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#caja2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#caja2 .caja-img img{
+    width: 80%;
+    height: 260px;
+}
+
+#caja3 .caja-img img{
+    width: 85%;
+    height: 270px;
+}
+
+#caja4 .caja-img img{
+    width: 85%;
+    height: 270px;
+}
+
+#caja5 .caja-img img{
+    width: 55%;
+    height: 270px;
+}
+
+#caja6 .caja-img img{
+    width: 55%;
+    height: 270px;
+}
+
+#caja7 .caja-img img{
+    width: 55%;
+    height: 270px;
+}
+
+#caja8 .caja-img img{
+    width: 50%;
+    height: 270px;
+}
+
+#caja9 .caja-img img{
+    width: 50%;
+    height: 270px;
+}
+
+#caja10 .caja-img img{
+    width: 50%;
+    height: 270px;
+}
+
+#caja11 .caja-img img{
+    width: 85%;
+    height: 260px;
+}
+
+#caja12 .caja-img img{
+    width: 85%;
+    height: 260px;
+}
+
+#caja13 .caja-img img{
+    width: 85%;
+    height: 260px;
+}
+
+#caja14 .caja-img img{
+    width: 50%;
+    height: 270px;
+}
+
+#caja15 .caja-img img{
+    width: 50%;
+    height: 270px;
+}
+
+#caja16 .caja-img img{
+    width: 50%;
+    height: 270px;
+}
+
+#caja17 .caja-img img{
+    width: 50%;
+    height: 270px;
+}
+
+#caja18 .caja-img img{
+    width: 85%;
+    height: 260px;
+}
+/*CIERRE CAJA IMAGENES*/
+
+.caja-nombre{
+    /*background-color: aqua;*/
+    height: 25px;
+    width: 100%;
+    font-size: 1.4em;
+    font-weight: 800;
+    /*margin-top: -20px;*/
+    text-align: center;
+    color: rgb(116,125,95);
+}
+
+.caja-img{
+    /*background-color: blueviolet;*/
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.caja-artista{
+    /*background-color: brown;*/
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(116,125,95);
+}
+
+@media(max-width:754px){
+
+    .header{
+        background-color: rgb(254,255,255);
+        display: flex;
+        flex-wrap: wrap;
+        height: 120px;
+        width: 100%;
+    }
+
+    .header-cont{
+        height: 40px;
+        width: 36%;
+        margin: 20px;
+    }
+    
+    .header-cont img{
+        height: 40px;
+        width: 95%;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        height: 6780px;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    .cajas{
+        background-color: rgb(254,254,254);
+        width: 75%;
+        height: 360px;
+        margin-bottom: 10px;
+        border: 3px solid rgb(241,238,214);
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    .caja-nombre{
+        height: 45px;
+        width: 100%;
+        font-size: 1.4em;
+        font-weight: 800;
+        text-align: center;
+        color: rgb(116,125,95);
+    }
+
+    .caja-artista{
+        width: 100%;
+        text-align: center;
+        font-size: 1.1em;
+        color: rgb(116,125,95);
+    }
+
+}
+
+@media screen and (min-width:755px) and (max-width:1350px){
+    .header{
+        background-color: rgb(254,255,255);
+        display: flex;
+        flex-wrap: wrap;
+        height: 90px;
+        width: 100%;
+    }
+
+    .header-cont{
+        height: 40px;
+        width: 42%;
+        margin: 20px;
+    }
+    
+    .header-cont img{
+        height: 40px;
+        width: 75%;
+    }
+
+    .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        height: 3500px;
+        align-content: center;
+        justify-content: space-around;
+    }
+
+    .cajas{
+        background-color: rgb(254,254,254);
+        width: 45%;
+        height: 360px;
+        margin-bottom: 10px;
+        border: 3px solid rgb(241,238,214);
+        align-content: center;
+        justify-content: space-around;
+    }
+}
